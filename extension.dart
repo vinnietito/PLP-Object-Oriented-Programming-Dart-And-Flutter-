@@ -15,4 +15,8 @@ void main(){
   String message = "hello, world";
 
   //Use the extension method to capitalize the first letter
+  String capitalizedMessage = message.capitalizeFirstLetter();
+
+  //print the result
+  print(capitalizedMessage);
 }
