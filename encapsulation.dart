@@ -1,6 +1,6 @@
 import 'factoryMethods.dart';
 
-class circle {
+class Circle {
   //Private Propert with underscore(_)
   double _radius;
 
