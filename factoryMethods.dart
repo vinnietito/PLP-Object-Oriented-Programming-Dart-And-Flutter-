@@ -24,3 +24,11 @@ class circle {
   }
 }
 
+void main(){
+  //Using the factory constructor to create circle instances
+  Circle circle1 = Circle.create(5.0); //Create a circle with radius 5.0
+  Circle circle2 = Circle.create(10.0); //Create a circle with radius 10.0
+
+  //Print the area of the circles by calling the calculateArea method
+  print('Circle 1 Area: ${circle1.calculateArea()}'); //Output: Circle 1 Area
+}
