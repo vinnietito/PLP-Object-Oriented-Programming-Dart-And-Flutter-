@@ -12,6 +12,15 @@ class circle {
     //Ensure the radius is positive before creating the instance
     if (radius > 0) {
       return Circle(radius); //Return a new Circle instance
+    } else {
+      //Throw an error if the radius is not valid
+      throw ArgumentError('Radius must be greater than zero');
     }
   }
+
+  //Method to calculate the area of the circle
+  double calculateArea() {
+    return pi * radius * radius; //Area formula: pi * radius^2
+  }
 }
+
