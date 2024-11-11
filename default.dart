@@ -8,6 +8,6 @@ class MyDetails {
  
 void main() {
   // Creating an instance of MyDetails using the parameterized constructor
-  MyDetails myDetails = MyDetails('Allan', 25);
+  MyDetails myDetails = MyDetails('Vincent', 20);
   print("Name: ${myDetails.name}, Age: ${myDetails.age}");
 }
