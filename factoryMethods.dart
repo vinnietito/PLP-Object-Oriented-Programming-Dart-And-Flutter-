@@ -1,7 +1,7 @@
 import 'dart:math';
 
 //Circle Class Definition
-class circle {
+class Circle {
   double radius; //Instance variable to store the radius of the circle
 
   //Constructor to initialize the radius
@@ -34,9 +34,9 @@ void main(){
   print('Circle 2 Area: ${circle2.calculateArea()}'); //Output: Circle 2 Area 
 
   //Example of error handling for invalid radius
-  try {
-    Circle circle3 = Circle.create(-3.0); //Invalid radius, will throw an error
-  } catch (e) {
-    print(e); //Catch an d print the error message
-  }
+  // try {
+  //   Circle circle3 = Circle.create(-3.0); //Invalid radius, will throw an error
+  // } catch (e) {
+  //   print(e); //Catch an d print the error message
+  // }
 }
