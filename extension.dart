@@ -9,3 +9,10 @@ extension StringExtensions on String {
     return this[0].toUpperCase() + this.substring(1);
   }
 }
+
+void main(){
+  //Create a string object
+  String message = "hello, world";
+
+  //Use the extension method to capitalize the first letter
+}
