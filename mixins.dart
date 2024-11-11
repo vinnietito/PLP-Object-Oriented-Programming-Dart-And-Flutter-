@@ -1,0 +1,5 @@
+class Employee {
+  void clockIn(){
+    
+  }
+}
