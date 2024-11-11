@@ -10,3 +10,13 @@ FileSystemsManager._internal();
 factory FileSystemsManager(){
   return_instance; //Always returns the same instance
 }
+
+//Method to simulate opening a file
+void openFile(String fileName) {
+  print('Opening file: $fileName');
+}
+
+//Method to simulate the writing to a file
+void writeFile(String fileName, String content) {
+  print('Wriring to file: $fileName with content: "$content"');
+}
