@@ -31,4 +31,7 @@ void main(){
 
   //Print the area of the circles by calling the calculateArea method
   print('Circle 1 Area: ${circle1.calculateArea()}'); //Output: Circle 1 Area
+  print('Circle 2 Area: ${circle2.calculateArea()}'); //Output: Circle 2 Area 
+
+  //Example of error handling for invalid radius
 }
