@@ -9,7 +9,7 @@ class Vehicle {
   //Method to display vehicle info
   void displayInfo(){
     print("Brand: $brand");
-    print("year: $year")
+    print("year: $year");
   }
 }
 
