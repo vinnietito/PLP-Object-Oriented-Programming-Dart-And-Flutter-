@@ -18,5 +18,5 @@ void main(){
   String capitalizedMessage = message.capitalizeFirstLetter();
 
   //print the result
-  print(capitalizedMessage);
+  print(capitalizedMessage); //Output: Hello, world!
 }
