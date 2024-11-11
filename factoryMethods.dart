@@ -34,4 +34,9 @@ void main(){
   print('Circle 2 Area: ${circle2.calculateArea()}'); //Output: Circle 2 Area 
 
   //Example of error handling for invalid radius
+  try {
+    Circle circle3 = Circle.create(-3.0); //Invalid radius, will throw an error
+  } catch (e) {
+    print(e); //Catch an d print the error message
+  }
 }
