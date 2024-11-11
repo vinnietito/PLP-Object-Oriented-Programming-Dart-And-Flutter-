@@ -2,15 +2,16 @@ class Fruit {
   String? color;
   String? fruitType;
   String? taste;
-  String? cost;
+  int? cost; // Change cost to int
 
-  Fruit(this.color, this.fruitType, this.taste)
+  Fruit(this.color, this.fruitType, this.taste, this.cost);
 
   void eatFruit() {
-    print("You are ${fruitType}, that is in ${color}, tastes ${taste}, it costed me this much ${cost}");
+    print("You are eating a ${fruitType}, it is ${color}, tastes ${taste}, and it cost me $cost.");
   }
 }
 
-void main(){
-  Fruit apple = Fruit("green", "citrus", "sour");
+void main() {
+  Fruit apple = Fruit("green", "apple", "sour", 1); // Changed fruitType to "apple"
+  apple.eatFruit();
 }
