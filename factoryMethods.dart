@@ -18,3 +18,9 @@ class Circle {
       throw ArgumentError('Radius must be greater than zero');
     }
   }
+
+  // Method to calculate the area of the circle
+  double calculateArea() {
+    return pi * radius * radius; // Area formula: pi * radius^2
+  }
+}
